@@ -15,10 +15,11 @@ The repo consists of script that checks if a CVE is impacted in a odf-console re
    #update the CVE to npm package name mapping in the file cve_to_package_mapping.json
 
 8.  Run the following command
-    % bash search-pkg-version.sh --cve-file cves.txt   master release-4.22
+   
+    % <b>bash search-pkg-version.sh --cve-file cves.txt   master release-4.22</b>
 
 
-Note: Update the branches in the step 6 and 7 as appropriate
+<br>Note: Update the branches in the step 6 and 7 as appropriate
 
 
 # Sample output
